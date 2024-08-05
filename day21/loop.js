@@ -61,5 +61,22 @@ datas.forEach(function(data){
 })
 
 
+const person = [
+    {
+        name : "John",
+        age: 25
+    },
+    {
+        year : 2000
+    }
+]
+
+console.log(person[1])
+ 
+
+
+for(let surname of person){
+    console.log(surname)
+}
 
 
